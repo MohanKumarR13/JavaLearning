@@ -21,8 +21,8 @@ public class Calculation {
 	}
 
 	// Case4- Method Is Taking Parameters And Also Returning Value
-	int sumOfTwoInt(int a, int b,int c) {
-		return a + b+c;
+	int sumOfTwoInt(int a, int b, int c) {
+		return a + b + c;
 	}
 
 	public static void main(String[] args) {
@@ -31,7 +31,7 @@ public class Calculation {
 		int result = calculation.sumOf();
 		System.out.println(result);
 		calculation.sumOfTwoIntegers(20, 30, 10);
-		System.out.println(calculation.sumOfTwoInt(250, 200,50));
+		System.out.println(calculation.sumOfTwoInt(250, 200, 50));
 
 	}
 
