@@ -1,0 +1,102 @@
+Variable
+---------
+Which can holds the  values
+int x; //Declaration
+int x=10; //initialize
+
+Data Types In Java
+==================
+Primitive Data Type
+--------------------
+  int,double,char,boolean,short,float
+
+Derived Data Types
+==================
+Array,ArrayList,String,HashMap...etc
+
+Operators In Java
+=================
+1.Arithmetic Operators
+2.Relational Operators
+3.Logical Opearators
+4.Increment and Decrement Operators
+
+X   Y   X&&Y   X||Y   !X
+T   T     T     T      F
+T   F     F     T 
+F   T     F     T      T
+F   F     F     F
+
+==========================================
+JAVA Control Statements
+-----------------------
+Conditional Statement(Selection Statements)
+Loops /Iterative Statements
+Jump Statements
+
+Condition Statement
+-------------------
+1.if Else
+if(condition){
+//statement
+}
+else{
+//statement
+}
+
+2.Nested If Else
+if(condition){
+//statement
+}
+else if(condition){
+//statement
+}
+else if(condition){
+//statement
+}
+else{
+//statement
+}
+
+3.Switch Case
+switch(expression){
+case <condition1>:statements; break;
+case <condition2>:statements; break;
+case <condition3>:statements; break;
+...
+....
+deafault:statement
+}
+
+Looping Statement is set of stataements mulltiple time based on the condition
+While,Do While,For Loop
+
+While Loop
+----------
+while(condition){
+  //statement
+}
+
+Do-While Loop
+-------------
+do{
+  //statements
+}
+while(condition);
+
+For Loop
+--------
+initialize
+condition
+increment/decrement
+
+for(initialize;condition;increment/decrement){
+//statement;
+}
+
+Jump Statements
+---------------
+break
+continue
+
+

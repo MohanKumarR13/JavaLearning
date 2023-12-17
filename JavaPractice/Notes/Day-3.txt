@@ -1,0 +1,64 @@
+Overloading
+this keyword
+static variables
+static methods
+------------------------
+Overloading means creating methods or constructors same name with different parameters
+Merits:
+Saves memory and save time
+
+1.No Of Parameters
+2.Data Type Of Parameters
+
+Constaructor Overloading
+this keyword
+static --> applicable for variable and methods
+
+static variable and static methods
+======================================
+1.static methods can access only static stuff (directly withour create object).
+2.static methods can also access non static stuff but through object.
+3.Non static methods can access both static and non static stuffs.
+
+System.out.println();
+---------------------
+class Test{
+static String s="name";
+}
+
+
+Java Inheritance
+Method Overriding
+super keyword
+final keyword
+
+Inheritance : Aquiring all the properties and behaviour from one class to another class is called as inheritance
+Parent Class/Base Class/Super Class-->Child Class/Sub Class/Derived Class
+
+Five Types Of Inheritance
+=========================
+Single Inheritance
+Multilevel Inheritance
+Hierarchical Inheritance
+Multiple Inheritance
+Hybrid Inheritance
+
+Method Overriding :
+===================
+Rewrite the methods in child class
+   1.Method defination should be same
+   2.Body should be changed
+Same Method and Same Parameter
+
+super keyword
+=============
+1.super can be used to refer immediate parent class instance variable
+2.super can be used to invoke immediate parent class method
+3.super() can be used to invoke immediate parent class constructor
+
+final keyword
+=============
+variable -->you Cannot Change the value of variable
+method -->Method Cannot be override in the child class
+class -->class cannot be extend another class
+

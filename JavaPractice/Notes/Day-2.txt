@@ -1,0 +1,95 @@
+Java Array And Strings
+=======================
+int a=10;
+a=10;
+Array: Array is collections of elements of same data type
+
+Two Types of Arrays
+1.Single  Dimension  2.Two/Multi Dimension
+
+Single Dimensional Array
+--------------------------
+1.Declare An Array
+2.Inserting the value into array
+3.Find size of an array
+4.Read Values from an array
+
+
+int a []=new int[5];
+int [] a=new int[5];
+
+for(initialize;condition;increment/decrement){
+  //statements;
+}
+
+Advance For Loop/Enhanced For Loop/For Each Loop
+==================================================
+for(initialize){
+  //statements;
+}
+
+2.Two/Multi Dimension Array
+==============================
+1.Declare An Array
+2.Inserting the value into array
+3.Find size of an array(Row And Columns)
+4.Read Values from an array
+
+int a[][]=new int [3][2]; //3-->Rows 2-->Columns
+int [] []
+
+String: String is collection of characters
+String s="Welcome";
+
+String methods
+==============
+length()
+concat()
+trim()
+charAt()
+contains()
+equals()
+equalsIgnoreCase()
+replace()
+subString()
+toLowerCase()
+toUpperCase()
+
+OOP-Object Oriented Programming
+===============================
+Class-->Collections of variables and methods
+Object-->Object is an Instance of a class
+Method-->Block of Code which contains a logic
+
+1.main()-->methods can be present in a same class
+2.main() method can be prresent in a separate class
+
+Class Variables
+===============
+We Can assign values to variables in three ways...
+1.By using reference variable
+2.By using method
+3.By using constructor
+
+Constructor
+============
+1.Constructor a special type of method
+2.Constructor used for initializing the class variables
+3.Constructor Name should be same as class name
+4.Constructor will be not return any value(not even void)
+5.Constructor will be invoked at the time of objec creation
+Two Types Constructor
+=====================
+1.Default Constructor
+2.Parameterised Constructor
+
+Method-->Block Of Code
+1.Case1- Not Taking Parameters And Also Not Returned Any Value
+2.Case2- Not Taking Parameters But Returning Value
+3.Case3- Taking Parameters But Not Returning Any Value
+4.Case4- Method Is Taking Parameters And Also Returning Value
+
+
+
+
+
