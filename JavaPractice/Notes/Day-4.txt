@@ -1,0 +1,135 @@
+Java Interface
+Java Package
+Access Modifiers
+
+Interface
+==========
+An Interface in Java is Blue print of class
+Interface Contains final and static variables
+Interface contains abstract methods
+An Abstarct method is a method contains defination but not body
+Methods in interface are public by default
+Interface supports the functionality of multiple inheritance
+We can define interface with interface keyword
+A class extends another classAn interface extends another interface but a class implementss an interface
+We can create object reference for interface but we cannot instantiate interface
+
+Access Modifiers --> define scope of variables and methods
+================
+public -> We Can Access Eveywhere
+default ->If you dont use any modifier it is treated as default by default the default modifier is accessable only within package
+protected ->access modifier is accessable within package and outside the package but through interface only
+private -> private is access modifier is accessiable only with in class
+
+Java Package is collection of class/interface/other files 
+import
+Create Sub packages
+2 types of packages
+1.user defined package
+2.built in package
+
+Exception Handling
+==================
+Exception is an abnormal condition
+In Java Exception is an event that disrupts the normal flow of the progress
+
+Types Of Exceptions
+===================
+1. Checked-> Exceptions checked/identified by the compiler
+
+Examples:
+Arithmetic Exception
+Null Pointer Exception
+Number Format Exception
+Array IndexOut Of Bounds Exception
+
+String a="abc";
+int x=Integer.parseInt(a);
+
+Handling Exception
+==================
+Syntax1:
+---------
+try{
+statements;
+}
+catch(Exception Type){
+statements;
+}
+
+One try block can have multiple catch blocks
+Syntax2:
+---------
+try{
+statements;
+}
+catch(ArithmeticException e{
+statements;
+}
+catch(Exception Type){
+statements;
+}
+
+Syntax3:
+---------
+try{
+statements;
+}
+catch(Exception Type){
+statements;
+}finally(){
+
+}
+finally block is always execute
+Exception doesn't occur
+Exception occurs and not handled
+Exception occurs and handled
+
+Checked Exception Can Be Handled in 2 Ways
+------------------------------------------
+1.try-catch
+2.throws keyword
+--------------------------------------------------------------------------------------------------------------------------------------------------
+ArrayList
+HashMap
+JDBC
+---------------
+Derived Data Types(Collections)
+
+ArrayList
+----------
+int a[]=new int a[5];
+
+Opearations on ArrayList
+--------------------------
+How to declare ArrayList
+How to add elements/values to array list
+Find size of arraylist
+Remove elements/values from array list
+Insert the new element middle of arraylist
+Read values from arraylist
+
+int a[]=new int[4];
+Object a[]=new Object[2];
+
+HashMap
+=======
+Declare HashMap
+Add Elements to HashMap
+Remove elements from HashMap
+Read Pairs from HashMap
+
+JDBC
+====
+Java Data Base Conncetivity
+Required:
+---------
+Download DataBase Driver(.jar file)
+Add Driver jar to your project
+
+Steps to write JDBC Program
+----------------------------
+1.Create a connection
+2.Create a query/statement
+3.Excecute statement/query
+4.Close Connection
