@@ -7,6 +7,12 @@ public class ContinueStatement {
 				continue;
 			}
 			System.out.println(i);
+			
+			
+			if (i == 5 |i==7|i==9) {
+				continue;
+			}
+			System.out.println(i);
 		}
 	}
 }

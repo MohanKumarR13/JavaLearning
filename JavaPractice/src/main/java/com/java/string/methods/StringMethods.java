@@ -1,5 +1,7 @@
 package com.java.string.methods;
 
+import java.util.Arrays;
+
 public class StringMethods {
 	public static void lengthOfString() {
 		String s = "Welcome";
@@ -9,13 +11,18 @@ public class StringMethods {
 	public static void stringConcat() {
 		String s = "Welcome";
 		String s1 = "Java";
+		String s2 = "Automation";
 		System.out.println("Cancat Of String " + s.concat(s1));
+		System.out.println(s1 + s2);
+		System.out.println(s + s1 + s2);
+		System.out.println(s1.concat(s2).concat(s));
+		System.out.println(s.concat(s1 + s2));
 	}
 
 	public static void stringTrim() {
 		String s = "    Welcome    ";
 		System.out.println("Before Of String Trim " + s);
-		System.out.println("After Of String Trim " + s.trim());
+		System.out.println("After Of String Trim " + s.trim().length());
 
 	}
 
@@ -92,5 +99,35 @@ public class StringMethods {
 		subString();
 		stringToLowerCase();
 		stringToUpperCase();
+
+		String mail = "abc@gmail.com";
+		String a[] = mail.split("@");
+		System.out.println(Arrays.toString(a));
+
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+
+		String amt = "$13,34,55";
+		System.out.println(amt.replace("$", ""));
+		System.out.println(amt.replace("$", "").replace("", ""));
+
+		mail = "abc,123@xyz";
+
+		String arr1[] = mail.split(",");
+		System.out.println(Arrays.toString(arr1));
+		String arr2[] = mail.split("@");
+		System.out.println(Arrays.toString(arr2));
+		System.out.println(arr1[1]);
+		System.out.println(arr2[1]);
+
+		String w = "abc 123 zyz";
+		String ar[] = w.split(" ");
+		System.out.println(Arrays.toString(ar));
+
+		String name = "Mohan Kumar";
+		Object h = name.replace('m', 'M').contains("Kumar");
+		System.out.println(h);
+		System.out.println(name.toLowerCase().contains("Kumar"));
+
 	}
 }

@@ -1,10 +1,12 @@
 package com.java.arraylist;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ArrayListExample {
 
 	public static void main(String[] args) {
+		int a[] = { 200, 10, 22, 23, 11 };
 		// How to declare ArrayList
 
 		// ArrayList list=new ArrayList(); //We Can store any type of elements
@@ -35,6 +37,15 @@ public class ArrayListExample {
 		// Read values from arraylist
 		for (Object s : lists) { // Object Type Variable can hold any type of variable
 			System.out.println(s);
+		}
+		// Sorting
+		System.out.println(Arrays.toString(a));
+		Arrays.sort(a);
+		System.out.println("After sorting" + Arrays.toString(a));
+//Reverse An array
+		int b[]= {100,200,300,400,500};
+		for (int i = b.length - 1; i >= 0; i--) {
+			System.out.println(b[i]);
 		}
 
 	}

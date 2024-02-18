@@ -5,6 +5,7 @@ public class FindTheNumberPositiveNegative {
 	public static void main(String[] args) {
 		findTheNumberPositiveNegativeMethod1();
 		findTheNumberPositiveNegativeMethod2(32);
+		findTheNumberRepeative();
 
 	}
 
@@ -31,6 +32,18 @@ public class FindTheNumberPositiveNegative {
 			System.out.println("Number is zero");
 
 		}
+	}
+	
+	public static void findTheNumberRepeative() {
+		int a[] = { 100, 100, 200, 300 };
+		int num = 100;
+		int count = 0;
+		for (int value : a) {
+			if (value == num) {
+				count++;
+			}
+		}
+		System.out.println(count);
 	}
 
 }
