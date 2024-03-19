@@ -10,9 +10,9 @@ public class VowelsCount {
 			if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
 				count++;
 			}
-			System.out.println(count);
+			
 		}
-
+                  System.out.println(count);
 	}
 
 }
