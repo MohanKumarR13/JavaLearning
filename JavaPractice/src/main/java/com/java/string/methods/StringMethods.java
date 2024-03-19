@@ -128,6 +128,16 @@ public class StringMethods {
 		Object h = name.replace('m', 'M').contains("Kumar");
 		System.out.println(h);
 		System.out.println(name.toLowerCase().contains("Kumar"));
-
+		split();
 	}
-}
+	
+	public static void split() {
+		String str="Selenium,Java,TestNG,Maven";
+		String ar[] = str.split(",");
+		System.out.println("Split"+Arrays.toString(ar));
+		
+	      for (String a : ar)
+	            System.out.println(a);
+	    }
+	}
+
