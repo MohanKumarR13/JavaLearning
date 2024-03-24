@@ -2,6 +2,7 @@ package com.java.arraylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 
 public class ArrayListExample {
 
@@ -42,11 +43,51 @@ public class ArrayListExample {
 		System.out.println(Arrays.toString(a));
 		Arrays.sort(a);
 		System.out.println("After sorting" + Arrays.toString(a));
+
+		// Check array is empty or not
+		System.out.println(lists.isEmpty());
 //Reverse An array
-		int b[]= {100,200,300,400,500};
+		int b[] = { 100, 200, 300, 400, 500 };
 		for (int i = b.length - 1; i >= 0; i--) {
 			System.out.println(b[i]);
 		}
+		// Modify element
+		lists.set(2, 232);
+		System.out.println(lists);
+		// Access specific element
+		System.out.println(lists.get(2));
+		// Using normal for loop
+		for (int i = 0; i < lists.size(); i++) {
+			System.out.println(lists.get(i));
+		}
+
+		// Using for each loop
+		for (Object x : lists) {
+			System.out.println(x);
+		}
+
+		// Using Iterator
+		Iterator iterator = lists.iterator();
+		System.out.println(iterator.next());
+
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+
+		ArrayList<Object> list = new ArrayList<Object>(); // Object
+
+		// Adding vaules to arraylist
+		list.add("John");
+		list.add("David");
+		list.add("Scott");
+		list.add("Smith");
+		list.add(1000);
+		list.add("Harrdy");
+		System.out.println(list);
+		lists.removeAll(list);
+		System.out.println(list.isEmpty());
+		lists.clear();
+		System.out.println(lists.isEmpty());
 
 	}
 
